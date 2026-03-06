@@ -1,0 +1,139 @@
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* BODY */
+
+body{
+    font-family:'Poppins', sans-serif;
+    color:#1f2937;
+    line-height:1.7;
+    padding:-40px;
+}
+
+/* HEADER */
+.faq{
+    background:#F8FAFC;
+}
+.faq-header{
+    text-align:center;
+    margin-bottom:40px;
+    margin: 50px;
+}
+
+.faq-header h1{
+    font-size:36px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.faq-header p{
+    color:#6b7280;
+    font-size:16px;
+}
+
+/* CONTAINER */
+
+.faq-container{
+    max-width:720px;
+    margin:auto;
+    background:#F8FAFC;
+    padding:50px;
+    border-radius:6px;
+}
+
+/* ITEMS */
+
+.faq-item h2{
+    font-size:22px;
+    margin-bottom:15px;
+}
+
+.faq-item p{
+    margin-bottom:15px;
+    font-size:15px;
+}
+
+.faq-item ol{
+    margin-left:20px;
+    margin-bottom:15px;
+}
+
+.faq-item ul{
+    margin-left:20px;
+    margin-bottom:15px;
+}
+
+.faq-item li{
+    margin-bottom:8px;
+}
+
+/* LINKS */
+
+a{
+    color:#4E80EE;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+/* HR */
+
+hr{
+    margin:30px 0;
+    border:none;
+    border-top:1px solid #D2D5DA;
+    margin-right: -50px;
+}
+
+
+/* ===================== */
+/* RESPONSIVE */
+/* ===================== */
+
+/* Tablet */
+
+@media (max-width:1024px){
+
+    .faq-header h1{
+        font-size:30px;
+    }
+
+    .faq-container{
+        padding:30px;
+    }
+
+}
+
+
+/* Mobile */
+
+@media (max-width:412px){
+
+    body{
+        padding:20px 15px;
+    }
+
+    .faq-header h1{
+        font-size:24px;
+    }
+
+    .faq-header p{
+        font-size:14px;
+    }
+
+    .faq-container{
+        padding:20px;
+    }
+
+    .faq-item h2{
+        font-size:18px;
+    }
+
+}
